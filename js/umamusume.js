@@ -1,9 +1,3 @@
-if(document.getElementById('uma-container')==null){
-  console.log("umaCale is not enabled");
-}
-else{
-  console.log("find uma-container");
-}
 let html =
   "<style>.umamusume-newUma{background:#ff3852}.umamusume-twitter{background:#ff9406}.umamusume-supportCard{background:#00b7ee}.umamusume-num{float:right}.umamusume-hotness{display:inline-block;padding:0 6px;transform:scale(.8) translateX(-3px);color:#fff;border-radius:8px}</style>";
 html += '<div class="uma-list">';
