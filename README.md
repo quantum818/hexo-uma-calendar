@@ -15,10 +15,10 @@ hexo page floating window plugin
 ```html
 <uma-card></uma-card>
 ```
- ## 效果
+## 效果
 大概会在代码处或者博客首页左上角出现一个悬浮的小窗口
 
 ![](https://upload.cc/i1/2022/10/14/ISfQAm.jpg)
 
 赛马娘热点信息采集自[赛马娘wiki](https://wiki.biligame.com/umamusume/%E9%A6%96%E9%A1%B5)。
- 
+
