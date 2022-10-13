@@ -3,6 +3,11 @@ const js = hexo.extend.helper.get("js").bind(hexo);
 const path = require('path');
 const fs = require('fs');
 
+const defaultConfig = {
+  'enable': true,
+  'mode': 'normal',
+};
+
 if (hexo.config.umaCale.enable) {
   const csscode = `<style>${fs.readFileSync(`${__dirname}/lib/umamusume.css`, 'utf8')}</style>`;
   hexo.extend.injector.register(
@@ -19,4 +24,11 @@ if (hexo.config.umaCale.enable) {
     jscode,
     // hexo.config.umaCale.localtion
   );
+  if(hexo.config.umaCale.mode == 'home'){
+    hexo.extend.injector.register(
+      "body_begin",
+      "<uma-card></uma-card>",
+      "home"
+    );
+  }
 }
