@@ -1,0 +1,63 @@
+.uma_parent {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px 6px rgb(7 17 27 / 6%);
+  margin: 10px;
+  padding: 10px;
+  transition: box-shadow 0.3s;
+}
+
+.uma_parent:hover {
+  box-shadow: 0 3px 8px 6px rgba(7, 17, 27, 0.15);
+}
+
+#uma-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.umamusume-newUma {
+  background: #ff3852
+}
+
+.umamusume-twitter {
+  background: #ff9406
+}
+
+.umamusume-supportCard {
+  background: #00b7ee
+}
+
+.umamusume-notice {
+  background: #ff6f49
+}
+
+.umamusume-notice-ad {
+  background: #332B33
+}
+
+.umamusume-activity {
+  background: #f86400
+}
+
+.umamusume-list-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.umamusume-title {
+  max-width: 160px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.umamusume-hotness {
+  margin: 3px 5px;
+  padding: 1px 4px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 12px;
+}
