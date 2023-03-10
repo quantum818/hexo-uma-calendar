@@ -1,6 +1,6 @@
 {
   "name": "hexo-uma-calendar",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "description": "hexo page floating window plugin",
   "directories": {
