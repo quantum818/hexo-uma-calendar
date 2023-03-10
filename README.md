@@ -2,7 +2,7 @@
 hexo page floating window plugin
 ## 使用方式
  ```
- $ npm install hexo-uma-calendar@0.0.3 --save
+ $ npm install hexo-uma-calendar@0.0.4 --save
  ```
  ## 插件配置
  在hexo根目录下的_config.yml文件中加入
